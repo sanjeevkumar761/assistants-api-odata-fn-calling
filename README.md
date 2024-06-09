@@ -1,4 +1,4 @@
-# Creates assistants using Azure OpenAI Assistants API and performs function calling on an oData service.   
+# Create assistants using Azure OpenAI Assistants API and perform function calling on an oData service.   
 
 Save .env-sample as .env and update values of environment variables.  
 
