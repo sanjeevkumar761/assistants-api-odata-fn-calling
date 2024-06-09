@@ -42,6 +42,7 @@ tool_outputs = []
 
 if(run.required_action != None):
   # Loop through each tool in the required action section
+  print(run.required_action.submit_tool_outputs.tool_calls)
   for tool in run.required_action.submit_tool_outputs.tool_calls:
     if tool.function.name == "get_products":
 
